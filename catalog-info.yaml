@@ -4,6 +4,7 @@ metadata:
   name: Mongodb
   annotations:
      argocd/app-name: mongo
+     argocd/app-namespace: argocd  
   namespace: default
 spec:
   type: database
